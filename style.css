@@ -47,7 +47,7 @@ body {
     left: 20rem;
     transform: rotateX(90deg);
     transform-style: preserve-3d;
-    animation: bladeAnim 0.1s infinite linear;
+    animation: bladeAnim .1s infinite linear;
 }
 
 @keyframes bladeAnim {
@@ -166,5 +166,16 @@ body {
     background-color: #000;
     top: 18.5rem;
     right: 6.5rem;
+    animation: tailRotorAnim 0.1s infinite linear;
+}
+
+@keyframes tailRotorAnim {
+    0% {
+        transform: rotateX(0);
+    }
+
+    100% {
+        transform: rotateX(360deg);
+    }
 }
 
