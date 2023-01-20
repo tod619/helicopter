@@ -53,6 +53,14 @@ body {
     left: 17.5rem;
 }
 
+.mast {
+    width: 1rem;
+    height: 2rem;
+    background-color: #000;
+    top: 17rem;
+    left: 39.5rem;
+}
+
 .cockpit {
     width: 20rem;
     height: 10rem;
