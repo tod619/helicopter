@@ -21,9 +21,22 @@ body {
 .container {
     width: 150rem;
     height: 80rem;
-    background-color: rgb(88,179,253);
+    background: rgb(88,179,253) url(images/bg.png) repeat-x;
+    background-size: 150rem auto;
+    background-position: 0 100%;
     display: grid;
     place-items: center;
+    animation: bgAnim 10s infinite linear;
+}
+
+@keyframes bgAnim {
+    0% {
+        background-position: 0 100%;
+    }
+
+    100% {
+        background-position: 150rem 100%;
+    }
 }
 
 /* Helicopter Style */
