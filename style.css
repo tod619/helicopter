@@ -109,3 +109,29 @@ body {
     left: 18rem;
 }
 
+.tail-cone {
+    width: 25rem;
+    height: 2rem;
+    background-color: #000;
+    top: 22rem;
+    left: 47rem;
+    border-radius: 0 100% 100% 0; 
+}
+
+.tail-fin {
+    width: 2rem;
+    height: 8rem;
+    background-color: #000;
+    top: 19rem;
+    right: 7.5rem;
+    border-radius: 100% 0 0 100%;
+}
+
+.tail-rotor {
+    width: 1rem;
+    height: 9rem;
+    background-color: #000;
+    top: 18.5rem;
+    right: 6.5rem;
+}
+
