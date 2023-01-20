@@ -27,6 +27,7 @@ body {
     display: grid;
     place-items: center;
     animation: bgAnim 10s infinite linear;
+    border-radius: .5rem 100rem;
 }
 
 @keyframes bgAnim {
@@ -45,6 +46,7 @@ body {
     height: 60rem;
     position: relative;
     perspective: 100rem;
+    transform: rotateY(-15deg);
 
 }
 
