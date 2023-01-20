@@ -47,6 +47,17 @@ body {
     left: 20rem;
     transform: rotateX(90deg);
     transform-style: preserve-3d;
+    animation: bladeAnim 0.1s infinite linear;
+}
+
+@keyframes bladeAnim {
+    0% {
+        transform: rotateX(90deg) rotateZ(0);
+    }
+
+    100% {
+        transform: rotateX(90deg) rotateZ(360deg);
+    }
 }
 
 .main-rotor {
