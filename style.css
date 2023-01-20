@@ -194,3 +194,14 @@ body {
     }
 }
 
+@media  screen and (min-width: 720px) {
+    html {
+        font-size: 50%;
+    }
+
+    .container {
+        height: 70rem;
+        width: 130rem;
+    }
+}
+
